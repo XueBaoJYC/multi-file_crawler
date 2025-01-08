@@ -27,6 +27,7 @@ Make sure you have the latest version of Edge installed
 pip install -r requirements.txt
 ```
 - 3. Set up a proxy (required)
+
 In the crawler file, modify proxies to your proxy address and enter it in the format of IP address: port.
 
 ```python
