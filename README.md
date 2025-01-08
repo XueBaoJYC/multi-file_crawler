@@ -1,4 +1,18 @@
-# multi-file_crawler
-This is an automated robot for general multi-file type crawling, downloading, and dataset generation based on edge browser and bing search engine.This is an automated robot for general multi-file type crawling, downloading, and dataset generation based on edge browser and bing search engine. It contains two modules, link crawling module and link downloading module. In the crawling module, you can customize the file type and keywords, and the crawled links will be classified and stored in .txt files. In the downloading module, the downloaded files will be stored in a folder according to the hash table name, and then a .csv file with two columns, file_name and label, will be generated.
+# Multi-file_Crawler
 
-这是一个基于edge浏览器和bing搜索引擎的通用多文件类型爬取、下载和数据集生成的自动化机器人。包含两个模块，分别是链接爬取模块和链接下载模块。在爬取模块中，可以自定义文件类型和关键词，爬取的链接会分类存放到.txt文件中。在下载模块中，下载好的文件将按照哈希表命名存放在一个文件夹内，然后生成一个有两列分别是file_name和label的.csv文件。
+## Introduction
+
+This is an automated robot for general multi-file type crawling, downloading, and dataset generation based on Edge browser and Bing search engine. It contains two modules, link crawling module and link downloading module. In the crawling module, you can customize the file type and keywords, and the crawled links will be classified and stored in .txt files. In the downloading module, the downloaded files will be stored in a folder according to the hash table name, and then a .csv file with two columns, file_name and label, will be generated.
+
+---
+## Fuctions
+
+1.自动爬取关键词相关链接，并分类存储到.txt文件中，计数每个类别链接数量和总数量。
+
+2.解析URL重定向链接，自动完成下载、数据集整理并生成.csv文件
+
+---
+## 安装步骤  
+
+1.克隆仓库
+
