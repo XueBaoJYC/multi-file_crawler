@@ -21,6 +21,8 @@ git clone https://github.com/XueBaoJYC/multi-file_crawler.git
 ```
 
 - 2. Requirements
+
+Make sure you have the latest version of Edge installed
 ```python
 pip install -r requirements.txt
 ```
